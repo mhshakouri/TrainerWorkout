@@ -16,7 +16,7 @@ body{
 
 .containerfirst{
 	width:100%;
-	height:709px;
+	height:900px;
 	display:block;
 	-moz-background-size:cover;
 	-webkit-background-size:cover;
@@ -188,4 +188,58 @@ body{
 .rightsecond p span{
 	font-size:36px;
 	color:#FFF;
+}
+/*third page*/
+.thirdpage{
+	background-image:url(image/OurProduct_Image_Pattern_bg.png);
+	width:100%;
+	height:900px;
+	display:block;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0;
+	background-position:25% 25%;
+}
+.thirdcontainer{
+	
+}
+/*top text */
+.thirdtop{
+	width:auto;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+.thirdtop h1{
+	width:100%;
+	font-family: "Open Sans";
+	display:block;
+	margin:0 auto 16px auto;
+	padding-top:81px;
+	font-weight:bold;
+	font-size: 48px;
+	color: #424A7A;
+	line-height: 65px;
+}
+.thirdtop p{
+	font-family: "Open Sans";
+	font-weight:bold;
+	font-size: 24px;
+	color: #424A7A;
+	line-height: 22px;
+}
+/*Middle text*/
+.thirdmiddle{
+	margin-top:200px;
+	width:34%;
+	text-align:right;
+	
+}
+.thirdmiddle p{
+	font-family: "Open Sans";
+	font-weight:bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 40px;
+	margin-right:13px;
 }
