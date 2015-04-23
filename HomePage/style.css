@@ -21,14 +21,62 @@ body{
 	-moz-background-size:cover;
 	-webkit-background-size:cover;
 	background-size:cover;
-	background-position:25% 25%;
-	background-image:url(image/iStock_000026209001_Full.jpg);
+	background-position:50% 50%;
+	background-image:url(personal-training.jpg);
 }
+
+.nav{
+	position:fixed;
+	width:100%;
+	height:60px;
+	margin:0 auto;
+	background-color:#424A7A;
+	opacity:0.8;
+	z-index:2;
+	min-width:1170px;
+}
+
+.nav img{
+	height:45px;
+	margin:5px 0 0 15%;
+}
+.nav ul{
+	position:absolute;
+	margin:20px 0 0 17%;
+	display:inline-block;
+}
+.nav button{
+	width:150px;
+	height:30px;
+	background: #F89406;
+	border-radius: 2px;
+	border:none;
+	position:absolute;
+	margin:15px 0 0 48%;
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 19px;
+}
+.nav ul li{
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 19px;
+	display:inline-block;
+	margin-right:30px;
+}
+.nav ul li:hover{
+	cursor:pointer;
+	border-bottom: 2px solid #FFFFFF;
+}
+
 /* Menu bar*/
 /*???size of menu bar*???*/
 #menu{
+	position:relative;
 	width:973px;
-	height:66px;
+	height:120px;
 	display:block;
 	margin:0 auto;
 }
@@ -38,64 +86,50 @@ body{
 /*div for icon*/
 /*???margin top*???*/
 .icon{
+	position:relative;
 	margin-top:10px;
-	margin-left:40px;
+	margin-left:60px;
 }
 /*???size of image*???*/
 .icon img{
-	width:70px;
+	width:150px;
 	display:block;
 }
 .icon p{
-	font-family: HelveticaNeueDeskInterface;
-	font-style:italic;
-	font-size: 14px;
+	font-family: "Open Sans";
+	font-size: 18px;
 	color: #FFFFFF;
-	line-height: 17px;
+	line-height: 24px;
 }
 /*div for menulist*/
 /*???margin left*???*/
 .menulist{
-	margin-left:30px;
+	position:absolute;
+	margin:50px 0 0 30px;
+	display:inline-block;
 }
 .menulist ul{
-	margin:0;
+	margin-left:250px;
 }
 .menulist ul li{
 	display:inline-block;
-	margin-right:16px;
+	margin-right:30px;
 	font-family: "Open Sans";
-	font-size: 15px;
+	font-size: 18px;
 	color: #FFFFFF;
-	line-height: 20px;
+	line-height: 24px;
 }
 .menulist ul li:hover{
-	border-bottom: 1px solid #FFFFFF;
-	padding-bottom:7px;
+	border-bottom: 2px solid #FFFFFF;
+	padding-bottom:1px;
 	cursor: pointer;
 	cursor: hand;
-}
-/*div for signup button*/
-.signup{
-	margin-left:11px;
-}
-
-/*???size of button???*/
-.signup button{
-	background:#53D2B1;
-	border:none;
-	width:100px;
-	height:30px;
-	font-family: "Open Sans";
-	font-size: 14px;
-	color: #FFFFFF;
-	line-height: 19px;
 }
 
 /*First page body*/
 #firstPageBody{
 	width:973px;
-	margin:41px auto 0 auto;
+	margin:100px auto 0 auto;
 	text-align:center;
 }
 /*text in middle of page*/
@@ -109,24 +143,39 @@ body{
 	line-height: 68px;
 	margin-bottom:122px;
 }
-.play-button{
-    width: 80px;
-    height: 80px;
-	opacity: 0.8;
-    position: absolute;
-    border: 3px solid #FFF;
-    border-radius: 54px;
+/*Sign up div*/
+.signup{
+	width:973px;
+	margin:0 auto;
+	text-align:center;
 }
-.play-button span {
-     position: absolute;
-	 opacity: 0.8;
-     top: 19px;
-     left: 27px;
-     width: 0;
-     height: 0;
-     border-top: 20px solid transparent;
-     border-bottom: 20px solid transparent;
-     border-left: 34px solid #FFF;
+.signupbutton{
+	width:350px;
+	height:50px;
+	background: #F89406;
+	border-radius: 2px;
+	border:none;
+	font-family: "Open Sans";
+	font-size: 19.27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	margin-bottom:57px;
+}
+/*First page footer*/
+.signup p{
+	font-family: "Open Sans";
+	font-weight:lighter;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 24px;
+}
+.signup p:last-of-type{
+	font-family: "Open Sans";
+	font-weight:lighter;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 24px;
+	text-decoration:underline;
 }
 /*page 2 of home container*/
 .containersecond{
@@ -259,8 +308,10 @@ body{
 	height:3064px;
 	margin:-2px auto 0 auto;
 	text-align:center;
-	background-image: linear-gradient(-161deg, #38AFDF 0%, #424A79 97%);;
+	background-image: linear-gradient(-161deg, #38AFDF 0%, #424A79 97%);
+	z-index:-1;
 }
+@media only screen and (min-width: 1170px){
 .circle{
 }
 .circle svg{
@@ -273,4 +324,27 @@ body{
 	font-weight:bold;
 	font-size:26px;
 	fill:#FFF;
+}
+.circle svg line{
+	visibility:visible;
+}
+}
+@media only screen and (max-width: 1170px){
+	.circle{
+		margin-bottom:-150px;
+}
+.circle svg{
+	margin:-40px auto 0 auto;
+	fill:#53D2B1;
+}
+
+.circle svg text{
+	font-family:"Open Sans";
+	font-weight:bold;
+	font-size:26px;
+	fill:#FFF;
+}
+.circle svg line{
+	visibility:hidden;
+}
 }
