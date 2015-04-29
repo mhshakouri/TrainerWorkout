@@ -574,22 +574,215 @@ body{
 }
 .pricecircle{
 	position:absolute;
-	width:100px;
-	height:100px;
-	border-radius:50px;
+	background: #52D2B0;
+	width:80px;
+	height:80px;
+	border-radius:40px;
 	border:2px solid #FFFFFF;
-	background-color:#B06D6E;
-	left:46.5%;
+	left:47%;
+	font-family:"Open Sans";
+	font-size:22px;
+	line-height:75px;
+	color:#FFF;
 }
 .pricesquare{
 	display:inline-block;
 	border:2px solid #FFFFFF;
-	width:120px;
-	height:50px;
-	background-color:#9B6DC8;
-	margin:70px auto 0;
+	width:160px;
+	height:55px;
+	margin:50px auto 0;
+	font-family:"Open Sans";
+	font-size:22px;
+	background-color:#38AFDF;
+	color:#8CC2E4;
+	line-height:55px;
 }
-
+.pricesquare:first-of-type{
+	border-right:1px;
+}
+.pricesquare:last-of-type{
+	border-left:1px;
+}
+.pricesquare:hover{
+	color:#FFF;
+	cursor:default;
+}
+.pricebox{
+	background: #52d2b0; /* Old browsers */
+background: -moz-linear-gradient(left,  #52d2b0 0%, #38afdf 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#52d2b0), color-stop(100%,#38afdf)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #52d2b0 0%,#38afdf 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #52d2b0 0%,#38afdf 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #52d2b0 0%,#38afdf 100%); /* IE10+ */
+background: linear-gradient(to right,  #52d2b0 0%,#38afdf 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52d2b0', endColorstr='#38afdf',GradientType=1 ); /* IE6-9 */
+width:960px;
+height:320px;
+margin:0 auto;
+}
+.pricebox div{
+	display:inline-block;
+	width:33%;
+	height:320px;
+	padding-top:60px;
+	border-right:1px solid #FFF;
+}
+.pricebox div h2{
+	font-family:"Open Sans";
+	font-weight:600;
+	font-size:38px;
+	color:#FFF;
+	padding-bottom:15px;
+	padding-top:15px;	
+}
+.pricebox div p{
+	font-family:"Open Sans";
+	display:block;
+	width:160px;
+	font-weight:lighter;
+	font-size:28px;
+	color:#FFF;
+	line-height:40px;
+	padding:0;
+	border-bottom:1px solid #FFF;
+	border-top:1px solid #FFF;
+	margin-left:80px;
+}
+.pricebox div:last-of-type p{
+	width:220px;
+	margin-left:50px;
+}
+.pricebox div:last-of-type{
+	border-right:none;
+}
+.seventhpage .signupbuttonseventhpage{
+	margin:20px auto 114px auto;
+	background-color:#3E0868;
+	width:300px;
+	height:50px;
+	border-radius: 2px;
+	border:none;
+	font-family: "Open Sans";
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.seventhpage p:last-of-type{
+	color:#424A7A;
+	font-weight:lighter;
+	font-size:30px;
+}
+.seventhpage .signupbuttonseventhpage:last-of-type{
+	background-color:#52D2B0;
+	margin:0 auto 74px auto;
+}
+/*eightth page*/
+.eightthpage{
+	width:100%;
+	height:auto;
+	background-color:#38AFDF;
+	text-align:center;
+}
+.eightthpage ul{
+	display:inline-table;
+	margin-top:25px;
+	text-align:left;
+	width:25%;
+}
+.eightthpage ul:first-of-type,.eightthpage ul:last-of-type{
+	padding-left:50px;
+}
+/*first list*/
+.eightthpage .firstlist tt{
+	display:block;
+	padding-bottom:15px;
+	font-family:"Open Sans";
+	font-size:18px;
+	color:#FFF;
+	line-height:25px;
+}
+.eightthpage .firstlist li{
+	display:block;
+	font-family:"Open Sans";
+	font-size:12px;
+	color:#FFF;
+	padding-bottom:6px;
+}
+/*second list*/
+.eightthpage .secondlist tt{
+	display:block;
+	padding-bottom:40px;
+	font-family:"Open Sans";
+	font-size:18px;
+	color:#FFF;
+	line-height:25px;
+}
+.eightthpage .secondlist li{
+	display:block;
+	font-family:"Open Sans";
+	font-size:12px;
+	color:#FFF;
+	padding-bottom:10px;
+	line-height:15px;
+}
+/*third list*/
+.eightthpage .thirdlist tt{
+	display:block;
+	padding-bottom:15px;
+	font-family:"Open Sans";
+	font-size:18px;
+	color:#FFF;
+	line-height:25px;
+}
+.eightthpage .thirdlist tt:last-of-type{
+	padding-top:31px;
+	padding-bottom:10px;
+}
+.eightthpage .thirdlist li{
+	display:block;
+	font-family:"Open Sans";
+	font-size:12px;
+	color:#FFF;
+	padding-bottom:6px;
+}
+.eightthpage .thirdlist li:nth-of-type(1) {
+	padding-bottom:10px;
+}
+.contactnews{
+	width:100%;
+}
+.contactnews div{
+	width:49%;
+	display:inline-table;
+	text-align:left;
+	padding-left:200px;
+}
+.contactnews div:last-of-type{
+	padding-left:220px;
+}
+.contactnews input{
+	width:60%;
+	height:40px;
+	border:none;
+}
+.contactnews button{
+	width:20%;
+	height:40px;
+	border:none;
+	background-color:#3E0868;
+	color:#FFF;
+	font-family:"Open Sans";
+}
+.contactnews div p{
+	font-family:"Open Sans";
+	font-size:15px;
+	color:#FFF;
+	padding-top:45px;
+	padding-bottom:10px;
+}
+.contactnews div img{
+	width:35px;
+	margin-right:10px;
+}
 @media only screen and (min-width: 1170px){
 .thirdmiddle{
 		font-size: 1.25vw;
