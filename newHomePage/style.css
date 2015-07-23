@@ -203,6 +203,9 @@ p{
 }
 
 @media only screen and (max-width:768px){
+#background{
+	background-size:auto;
+}
 .container{
 	padding:0 !important;
 }
