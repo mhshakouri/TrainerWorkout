@@ -1,9 +1,12 @@
 @charset "utf-8";
-body, html{
+html, body{
 	width:100%;
 	height:auto;
 	margin:0;
 	padding:0;
+}
+body{
+	overflow:auto;
 }
 
 *{
@@ -20,13 +23,8 @@ p{
 }
 
 #background{
-	background-image:url(image/iStock_000024748230_Fulla%20+%20Filter.jpg);
 	width:100%;
 	padding-top:41px;
-	-moz-background-size:cover;
-	-webkit-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
 	padding-bottom:25px;
 	background-repeat:no-repeat;
 }
@@ -203,9 +201,6 @@ p{
 }
 
 @media only screen and (max-width:768px){
-#background{
-	background-size:auto;
-}
 .container{
 	padding:0 !important;
 }
