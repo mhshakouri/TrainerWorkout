@@ -192,7 +192,7 @@ p{
 	text-decoration:underline;
 }
 
-@media screen and (max-width:768px){
+@media only screen and (max-width:768px){
 .container{
 	padding:0 !important;
 }
@@ -255,7 +255,7 @@ p{
 	width:100%;
 }
 }
-@media screen and (max-width:445px){
+@media only screen and (max-width:445px){
 #thirdMiddle input{
 	width:70%;
 }
