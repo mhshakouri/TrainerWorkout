@@ -5,6 +5,9 @@ html, body{
 	margin:0;
 	padding:0;
 }
+body{
+	display:block;
+}
 
 *{
 	margin:0;
@@ -28,8 +31,10 @@ p{
 	-webkit-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	background-position:center;
 	padding-bottom:25px;
 	background-repeat:no-repeat;
+	background-color:#B06D6E;
 }
 #backgroundImage{
 	position:absolute;
@@ -63,6 +68,7 @@ p{
 }
 .container{
 	position:relative;
+	height:auto;
 }
 /*search input*/
 #search{
