@@ -23,8 +23,14 @@ p{
 }
 
 #background{
+	background-image:url(image/iStock_000024748230_Fulla%20+%20Filter.jpg);
 	width:100%;
+	height:auto;
 	padding-top:41px;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 	padding-bottom:25px;
 	background-repeat:no-repeat;
 }
