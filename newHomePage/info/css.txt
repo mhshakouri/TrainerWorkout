@@ -1,0 +1,79 @@
+/* Find a personal trai: */
+font-family: OpenSans-Light;
+font-size: 36px;
+color: #FFFFFF;
+line-height: 49px;
+
+
+/* What are you looking: */
+font-family: OpenSans-Light;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 27px;
+
+
+/* Oval of the filter options.: */
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+
+
+/* Text inside the oval filter */
+font-family: OpenSans-Light;
+font-size: 12px;
+color: #FFFFFF;
+line-height: 17px;
+
+
+
+
+/* Search Box: */
+background: rgba(255,255,255,0.48);
+box-shadow: inset 0px -1px 6px 0px rgba(255,255,255,0.50);
+border-radius: 2px;
+
+/* Location (text in search box): */
+font-family: OpenSans-Light;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 19px;
+
+
+
+/* TOp corner right search box. : */
+background-image: linear-gradient(0deg, rgba(255,255,255,0.36) 0%, rgba(150,150,150,0.20) 100%);
+box-shadow: inset 0px -1px 4px 0px rgba(255,255,255,0.30);
+border-radius: 12px;
+/* Top corner right search box text. : */
+font-family: OpenSans-Light;
+font-size: 12px;
+color: rgba(255,255,255,0.60);
+line-height: 17px;
+
+
+
+
+
+
+/* Location Button: */
+background: #52D2B0;
+border-radius: 2px;
+
+/* Location (text in button): */
+font-family: OpenSans-Light;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 19px;
+
+
+/* Are you a personal t: */
+font-family: OpenSans-Light;
+font-size: 17px;
+color: #FFFFFF;
+line-height: 23px;
+
+
+/* Claim your personal : */
+font-family: OpenSans;
+font-size: 17px;
+color: #FFFFFF;
+line-height: 23px;

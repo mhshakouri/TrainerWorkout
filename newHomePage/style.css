@@ -87,18 +87,10 @@ p{
 	border:none;
 	padding:5px 30px;
 }
-.icon{
-	top:3px;
+.fa-search{
 	right:10px;
-	padding:10px;
+	top:5px;
 	position:absolute;
-	width:25px;
-	height:25px;
-	background-image:url(image/search-256.png);
-	background-size:100%;
-	background-repeat:no-repeat;
-	border:none;
-	background-color:transparent;
 }
 
 /*Middle section*/
@@ -277,6 +269,7 @@ p{
 }
 }
 @media only screen and (max-width:445px){
+	
 #thirdMiddle input{
 	width:70%;
 }
@@ -286,14 +279,5 @@ p{
 	margin:5px auto;
 	width:60%;
 	font-size: 10.5px;
-}
-#buttons input:nth-of-type(2),#buttons input:nth-of-type(6){
-	width:50%;
-}
-#buttons input:nth-of-type(3),#buttons input:nth-of-type(5){
-	width:40%;
-}
-#buttons input:nth-of-type(4){
-	width:30%;
 }
 }
