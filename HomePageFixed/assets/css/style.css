@@ -1,0 +1,283 @@
+@charset "utf-8";
+html{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	display:block;
+}
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:0;
+	padding:0;	
+}
+p{
+	margin:0;
+	padding:0;
+}
+
+#background{
+	background-image:url(../image/iStock_000024748230_Fulla%20+%20Filter.jpg);
+	width:100%;
+	height:auto;
+	padding-top:41px;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	padding-bottom:25px;
+	background-repeat:no-repeat;
+}
+#backgroundImage{
+	position:absolute;
+	top:0;
+	z-index:0;
+}
+
+.right{
+	text-align:right;
+}
+.font{
+	font-family:"Open Sans";
+	color:#FFF;
+	font-weight:lighter;
+}
+/*Top section*/
+#top{
+	width:100%;
+	height:137px;
+}
+/*Logo and Text of logo*/
+#logo{
+	position:relative;
+}
+#logoText{
+	position:absolute;
+	top:40px;
+	left:90px;
+	font-style:italic;
+	
+}
+.container{
+	position:relative;
+	height:auto;
+}
+/*search input*/
+#search{
+	position:relative;
+}
+#search input{
+	font-size:13px;
+	width:270px;
+	background: rgba(255,255,255,0.48);
+	box-shadow: inset 0px -1px 6px 0px rgba(255,255,255,0.50);
+	border-radius: 15px;
+	border:none;
+	padding:5px 30px;
+}
+.fa-search{
+	right:10px;
+	top:5px;
+	position:absolute;
+}
+
+/*Middle section*/
+#middle{
+	width:100%;
+	text-align:center;
+	font-size:36px;
+	line-height:49px;
+	padding-bottom:58px;
+}
+
+/*Second Middle section*/
+#secondMiddle{
+	text-align:center;
+	width:100%;
+}
+#secondMiddle p{
+	margin:0;
+	padding:0;
+	font-size: 20px;
+	line-height: 27px;
+	padding-bottom:24px;
+}
+#secondMiddle p:last-of-type{
+	display:none;
+}
+#secondMiddle p:first-of-type{
+	display:block;
+}
+/*Filter buttons*/
+#buttons{
+	width:80%;
+	text-align:center;
+	margin:0 auto;
+	padding-bottom:45px;
+}
+#buttons input{
+	padding:5px 10px;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	background-color:transparent;
+	font-size: 12px;
+	line-height: 17px;
+	font-weight:lighter;
+	margin:0 5px 10px;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+	transition:all 0.5s;
+}
+
+#buttons input:hover{
+	background-color:#FFF;
+	color:#6CCAFF;
+}
+/*Third Middle section Location button*/
+#thirdMiddle{
+	width:100%;
+	text-align:center;
+	padding-bottom:41px;
+}
+#thirdMiddle input{
+	width:300px;
+	height:35px;
+	border:none;
+	border-radius: 2px;
+	background-color:rgba(255,255,255,0.5);
+	font-size: 14px;
+	line-height: 19px;
+	-webkit-transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-o-transition:background-color 0.5s;
+	transition:background-color 0.5s;
+}
+#thirdMiddle input:hover{
+	background-color:rgba(255,255,255,0.8);
+}
+/*Fourth Middle section Search button*/
+#forthMiddle{
+	width:100%;
+	text-align:center;
+	padding-bottom:98px;
+}
+#forthMiddle input{
+	width:150px;
+	height:35px;
+	border:none;
+	border-radius: 2px;
+	background-color:#52D2B0;
+	font-size: 14px;
+	line-height: 19px;
+	-webkit-transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-o-transition:background-color 0.5s;
+	transition:background-color 0.5s;
+}
+#forthMiddle input:hover{
+	background-color:#AFEADA;
+}
+/*Bottom section*/
+#bottom{
+	width:100%;
+	text-align:center;
+}
+#bottom p{
+	font-size: 17px;
+	line-height: 23px;
+	font-weight:lighter;
+}
+#bottom p span{
+	font-weight:600;
+	text-decoration:underline;
+}
+
+@media only screen and (max-width:768px){
+.container{
+	padding:0 !important;
+}
+/*top section modifier*/
+.right{
+	text-align:center;
+	padding-top:25px;
+}
+.center{
+	width:200px;
+	margin:0 auto;
+}
+#logoBacckground{
+	width:70%;
+}
+#backgroundImage{
+	width:80%;
+}
+#search{
+	margin:0 auto;
+	width:270px;
+}
+/*middle section modifier*/
+#middle{
+	font-size:22px;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+/*filter buttons modifier*/
+#buttons{
+	width:100%;
+}
+#buttons input{
+	font-size: 10.5px;
+}
+#secondMiddle p:last-of-type{
+	display:block;
+}
+#secondMiddle p:first-of-type{
+	display:none;
+}
+/*third middle location button*/
+#thirdMiddle{
+	padding-bottom:25px;
+}
+#thirdMiddle input{
+	width:50%;
+	height:25px;
+}
+/*forth middle search button*/
+#forthMiddle{
+	padding-bottom:50px;
+}
+/*bottom*/
+#bottom p{
+	font-size: 16px;
+}
+#bottom p span{
+	display:block;
+	width:100%;
+}
+}
+@media only screen and (max-width:445px){
+	
+#thirdMiddle input{
+	width:70%;
+}
+
+#buttons input{
+	display:block;
+	margin:5px auto;
+	width:60%;
+	font-size: 10.5px;
+}
+}
